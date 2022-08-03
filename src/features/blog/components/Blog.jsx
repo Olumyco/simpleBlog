@@ -48,7 +48,6 @@ const Blog = () => {
     };
 
     const handleDelete = async id => {
-        console.log(deleteBlogProps);
         setFormInputs(prevState => ({
             ...prevState,
             id: id
